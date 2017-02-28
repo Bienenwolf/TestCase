@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<Context >
+
+	<Resource name="jdbc/basic"
+		global="jdbc/basic"
+		auth="Container" 
+		type="javax.sql.DataSource" 
+		maxActive="10"
+		maxIdle="20"
+		maxWait="10000"
+		username="root"
+		password="1" 
+		driverClassName="com.mysql.jdbc.Driver"
+		testOnBorrow="true"
+		url="jdbc:mysql://localhost/javatest"
+	/>
+	
+</Context>
